@@ -10,11 +10,12 @@ day_of_week={
     '4':'四',
     '5':'五',
     '6':'六',
-    '7':'日'
+    '0':'日'
 }
 def getTime():
     dt = {}
     dt['curTime'] = time.strftime("%H:%M")
+    dt ['curHour'] = time.strftime("%H")
     # print(time.strftime("%w"), time.strftime("%d"), time.strftime("%m"))
     dt['date'] = '{}月{}日 星期{}'.format(time.strftime('%m').replace('0',''), time.strftime('%d').replace('0',''), day_of_week[time.strftime('%w')])
     # print('05'.replace('0',''))

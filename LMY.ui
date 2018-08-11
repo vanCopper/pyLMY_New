@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>480</width>
-    <height>800</height>
+    <width>800</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="palette">
@@ -65,9 +65,9 @@
   <widget class="QLabel" name="timeLabel">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>0</x>
      <y>10</y>
-     <width>461</width>
+     <width>801</width>
      <height>81</height>
     </rect>
    </property>
@@ -129,9 +129,9 @@
   <widget class="QLabel" name="dateLabel">
    <property name="geometry">
     <rect>
-     <x>9</x>
+     <x>0</x>
      <y>90</y>
-     <width>461</width>
+     <width>801</width>
      <height>20</height>
     </rect>
    </property>
@@ -188,8 +188,8 @@
   <widget class="QLabel" name="nowIcon">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>140</y>
+     <x>300</x>
+     <y>130</y>
      <width>90</width>
      <height>90</height>
     </rect>
@@ -210,8 +210,8 @@
   <widget class="QLabel" name="nowTmp">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>150</y>
+     <x>400</x>
+     <y>140</y>
      <width>111</width>
      <height>41</height>
     </rect>
@@ -269,8 +269,8 @@
   <widget class="QLabel" name="nowText">
    <property name="geometry">
     <rect>
-     <x>239</x>
-     <y>190</y>
+     <x>409</x>
+     <y>180</y>
      <width>101</width>
      <height>21</height>
     </rect>
@@ -328,8 +328,8 @@
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>260</y>
+     <x>150</x>
+     <y>250</y>
      <width>34</width>
      <height>24</height>
     </rect>
@@ -387,8 +387,8 @@
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>260</y>
+     <x>390</x>
+     <y>250</y>
      <width>34</width>
      <height>24</height>
     </rect>
@@ -446,8 +446,8 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>260</y>
+     <x>640</x>
+     <y>250</y>
      <width>34</width>
      <height>24</height>
     </rect>
@@ -505,8 +505,8 @@
   <widget class="QLabel" name="day1Icon">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>300</y>
+     <x>130</x>
+     <y>290</y>
      <width>70</width>
      <height>70</height>
     </rect>
@@ -527,8 +527,8 @@
   <widget class="QLabel" name="day2Icon">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>300</y>
+     <x>370</x>
+     <y>290</y>
      <width>70</width>
      <height>70</height>
     </rect>
@@ -549,8 +549,8 @@
   <widget class="QLabel" name="day3Icon">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>300</y>
+     <x>620</x>
+     <y>290</y>
      <width>70</width>
      <height>70</height>
     </rect>
@@ -571,8 +571,8 @@
   <widget class="QLabel" name="day3Text">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>380</y>
+     <x>620</x>
+     <y>370</y>
      <width>71</width>
      <height>24</height>
     </rect>
@@ -633,8 +633,8 @@
   <widget class="QLabel" name="day1Text">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>380</y>
+     <x>130</x>
+     <y>370</y>
      <width>71</width>
      <height>24</height>
     </rect>
@@ -695,8 +695,8 @@
   <widget class="QLabel" name="day2Text">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>380</y>
+     <x>370</x>
+     <y>370</y>
      <width>71</width>
      <height>24</height>
     </rect>
@@ -757,8 +757,8 @@
   <widget class="QLabel" name="day3Tmp">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>410</y>
+     <x>620</x>
+     <y>400</y>
      <width>71</width>
      <height>24</height>
     </rect>
@@ -819,8 +819,8 @@
   <widget class="QLabel" name="day2Tmp">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>410</y>
+     <x>370</x>
+     <y>400</y>
      <width>71</width>
      <height>24</height>
     </rect>
@@ -881,8 +881,8 @@
   <widget class="QLabel" name="day1Tmp">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>410</y>
+     <x>130</x>
+     <y>400</y>
      <width>71</width>
      <height>24</height>
     </rect>
@@ -938,6 +938,90 @@
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="icon">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>730</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>images/mi.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="helloMiya">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>760</y>
+     <width>401</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>127</red>
+         <green>127</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <family>Wawati SC</family>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>多云</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
    </property>
   </widget>
  </widget>
