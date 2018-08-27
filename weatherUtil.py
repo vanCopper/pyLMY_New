@@ -5,7 +5,7 @@ __mtime__ = '2017/6/21'
 import urllib3
 import json
 def getNowWeather():
-    url_weather = 'https://api.seniverse.com/v3/weather/now.json?key=t53ihxakgsjlolg3&location=shanghai&language=zh-Hans&unit=c'
+    url_weather = 'https://api.seniverse.com/v3/weather/now.json?key=your key&location=shanghai&language=zh-Hans&unit=c'
     urllib3.disable_warnings()
     http = urllib3.PoolManager()
     r = http.request('GET', url_weather)
@@ -16,7 +16,7 @@ def getNowWeather():
     return weather
 
 def getDaysWeather():
-    url_weather = 'https://api.seniverse.com/v3/weather/daily.json?key=t53ihxakgsjlolg3&location=shanghai&language=zh-Hans&unit=c&start=0&days=3'
+    url_weather = 'https://api.seniverse.com/v3/weather/daily.json?key=your key&location=shanghai&language=zh-Hans&unit=c&start=0&days=3'
     urllib3.disable_warnings()
     http = urllib3.PoolManager()
     r = http.request('GET', url_weather)
